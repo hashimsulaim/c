@@ -1,0 +1,22 @@
+//08L01.c:using size of operator
+#include <stdio.h>
+
+int main()
+{
+  char ch = ' ';
+  int int_num = 0;
+  float flt_num = 0.0f;
+  double dbl_num = 0.0;
+
+  printf("The size of char is %d-bytes\n", sizeof(char));
+    printf("The size of ch is %d-bytes\n", sizeof ch);
+      printf("The size of int is %d-bytes\n", sizeof(int));
+        printf("The size of c int_num is %d-bytes\n", sizeof int_num);
+	  printf("The size of ch float is %d-bytes\n", sizeof(float));
+	    printf("The size of flt_num is %d-bytes", sizeof flt_num);
+	      printf("The size of double is %d-bytes", sizeof(double));
+	        printf("The size of dbl_num is %d-bytes", sizeof dbl_num);
+	
+    
+		return 0;
+}
